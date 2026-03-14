@@ -1,0 +1,844 @@
+DEBUG 2026-03-13 11:50:15,810 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-03-13 11:50:15,899 [2    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2026-03-13 11:50:15,929 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.Web.Host.Startup.SimpleTaskAppWebHostModule, Acme.SimpleTaskApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,933 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppWebCoreModule, Acme.SimpleTaskApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,936 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppApplicationModule, Acme.SimpleTaskApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,937 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppCoreModule, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,939 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,940 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,941 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,942 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,943 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppEntityFrameworkModule, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,944 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,944 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,945 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,946 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,946 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,947 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:15,951 [2    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2026-03-13 11:50:16,152 [2    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:50:16,152 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:50:16,152 [2    ] o.Configuration.LanguageManagementConfig - Converted SimpleTaskApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:50:16,152 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:50:16,984 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppDbContext, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:50:17,451 [2    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2026-03-13 11:50:17,597 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-03-13 11:50:17,626 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2026-03-13 11:50:17,648 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskApp
+DEBUG 2026-03-13 11:50:17,658 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-03-13 11:50:17,675 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-03-13 11:50:17,684 [2    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Acme.SimpleTaskApp.MultiTenancy.Tenant, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Acme.SimpleTaskApp.Authorization.Users.User, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2026-03-13 11:50:17,715 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2026-03-13 11:50:17,715 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.CreateUserDto
+DEBUG 2026-03-13 11:50:17,720 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.UserDto
+DEBUG 2026-03-13 11:50:17,721 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2026-03-13 11:50:17,722 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2026-03-13 11:50:17,722 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Roles.Dto.PermissionDto
+DEBUG 2026-03-13 11:50:17,722 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2026-03-13 11:50:17,722 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.TenantDto
+INFO  2026-03-13 11:50:23,431 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+DEBUG 2026-03-13 11:50:24,162 [2    ] .BrowserRefresh.BrowserRefreshMiddleware - Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+INFO  2026-03-13 11:50:24,285 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2026-03-13 11:50:24,425 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-03-13 11:50:24,428 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-03-13 11:50:24,432 [2    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\Vuyani\Downloads\Acme.SimpleTaskApp\10.2.0\aspnet-core\src\Acme.SimpleTaskApp.Web.Host
+INFO  2026-03-13 11:50:24,720 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:50:24,838 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Acme.SimpleTaskApp.Web.Host.Controllers.HomeController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 11:50:25,300 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2026-03-13 11:50:25,330 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host) in 467.6583ms
+INFO  2026-03-13 11:50:25,334 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:50:25,369 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 - - 1143.5018ms
+INFO  2026-03-13 11:50:25,404 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-03-13 11:50:25,405 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+DEBUG 2026-03-13 11:50:25,426 [16   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 11:50:25,432 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 49.4742ms
+INFO  2026-03-13 11:50:25,483 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 102.6577ms
+INFO  2026-03-13 11:50:25,494 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 11:50:25,513 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 11:50:25,723 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:50:25,757 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 11:50:25,801 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 288.5190ms
+INFO  2026-03-13 11:50:25,810 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 11:50:25,824 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 63.106ms
+INFO  2026-03-13 11:50:25,826 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:50:25,830 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 334.1478ms
+INFO  2026-03-13 11:50:48,860 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/User/Create - application/json 172
+INFO  2026-03-13 11:50:48,879 [16   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 11:50:48,947 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 11:50:48,990 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Users.Dto.UserDto] CreateAsync(Acme.SimpleTaskApp.Users.Dto.CreateUserDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+ERROR 2026-03-13 11:50:49,041 [16   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.AbpException: There is no permission with name: Pages.Users
+   at Abp.Authorization.PermissionManager.GetPermission(String name)
+   at Abp.Authorization.Users.AbpUserManager`2.IsGrantedAsync(Int64 userId, String permissionName)
+   at Abp.Authorization.PermissionChecker`2.IsGrantedAsync(Int64 userId, String permissionName)
+   at Abp.Authorization.PermissionChecker`2.IsGrantedAsync(String permissionName)
+   at Abp.Authorization.PermissionCheckerExtensions.IsGrantedAsync(IPermissionChecker permissionChecker, Boolean requiresAll, String[] permissionNames)
+   at Abp.Authorization.PermissionCheckerExtensions.AuthorizeAsync(IPermissionChecker permissionChecker, Boolean requireAll, String[] permissionNames)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+Abp.AbpException: There is no permission with name: Pages.Users
+   at Abp.Authorization.PermissionManager.GetPermission(String name)
+   at Abp.Authorization.Users.AbpUserManager`2.IsGrantedAsync(Int64 userId, String permissionName)
+   at Abp.Authorization.PermissionChecker`2.IsGrantedAsync(Int64 userId, String permissionName)
+   at Abp.Authorization.PermissionChecker`2.IsGrantedAsync(String permissionName)
+   at Abp.Authorization.PermissionCheckerExtensions.IsGrantedAsync(IPermissionChecker permissionChecker, Boolean requiresAll, String[] permissionNames)
+   at Abp.Authorization.PermissionCheckerExtensions.AuthorizeAsync(IPermissionChecker permissionChecker, Boolean requireAll, String[] permissionNames)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2026-03-13 11:50:49,089 [16   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2026-03-13 11:50:49,095 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 11:50:49,107 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Users.UserAppService.CreateAsync (Acme.SimpleTaskApp.Application) in 110.3467ms
+INFO  2026-03-13 11:50:49,111 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Users.UserAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 11:50:49,118 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/User/Create - 500 - application/json;+charset=utf-8 258.1934ms
+DEBUG 2026-03-13 11:53:22,291 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-03-13 11:53:22,417 [2    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2026-03-13 11:53:22,445 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.Web.Host.Startup.SimpleTaskAppWebHostModule, Acme.SimpleTaskApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,448 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppWebCoreModule, Acme.SimpleTaskApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,449 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppApplicationModule, Acme.SimpleTaskApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,450 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppCoreModule, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,450 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,451 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,451 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,452 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,453 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppEntityFrameworkModule, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,454 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,455 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,455 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,456 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,457 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,458 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:22,461 [2    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2026-03-13 11:53:22,568 [2    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:53:22,568 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:53:22,568 [2    ] o.Configuration.LanguageManagementConfig - Converted SimpleTaskApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:53:22,568 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:53:23,274 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppDbContext, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:53:23,724 [2    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2026-03-13 11:53:23,783 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-03-13 11:53:23,796 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2026-03-13 11:53:23,807 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskApp
+DEBUG 2026-03-13 11:53:23,813 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-03-13 11:53:23,831 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-03-13 11:53:23,845 [2    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Acme.SimpleTaskApp.MultiTenancy.Tenant, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Acme.SimpleTaskApp.Authorization.Users.User, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2026-03-13 11:53:23,910 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2026-03-13 11:53:23,910 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.CreateUserDto
+DEBUG 2026-03-13 11:53:23,919 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.UserDto
+DEBUG 2026-03-13 11:53:23,922 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2026-03-13 11:53:23,923 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2026-03-13 11:53:23,923 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Roles.Dto.PermissionDto
+DEBUG 2026-03-13 11:53:23,923 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2026-03-13 11:53:23,923 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.TenantDto
+INFO  2026-03-13 11:53:29,511 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+DEBUG 2026-03-13 11:53:30,194 [2    ] .BrowserRefresh.BrowserRefreshMiddleware - Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+INFO  2026-03-13 11:53:30,349 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2026-03-13 11:53:30,534 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-03-13 11:53:30,540 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-03-13 11:53:30,547 [2    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\Vuyani\Downloads\Acme.SimpleTaskApp\10.2.0\aspnet-core\src\Acme.SimpleTaskApp.Web.Host
+INFO  2026-03-13 11:53:31,004 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:53:31,221 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Acme.SimpleTaskApp.Web.Host.Controllers.HomeController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 11:53:31,793 [18   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2026-03-13 11:53:31,824 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host) in 579.1431ms
+INFO  2026-03-13 11:53:31,829 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:53:31,913 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 - - 1576.8860ms
+INFO  2026-03-13 11:53:31,977 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-03-13 11:53:32,004 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+DEBUG 2026-03-13 11:53:32,017 [18   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 11:53:32,022 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 45.6684ms
+INFO  2026-03-13 11:53:32,084 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 107.3801ms
+INFO  2026-03-13 11:53:32,122 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 11:53:32,361 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 11:53:32,519 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:53:32,586 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 11:53:32,641 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 279.3476ms
+INFO  2026-03-13 11:53:32,655 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 11:53:32,664 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 76.6612ms
+INFO  2026-03-13 11:53:32,666 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:53:32,689 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 546.1839ms
+DEBUG 2026-03-13 11:56:00,950 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-03-13 11:56:01,051 [2    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2026-03-13 11:56:01,059 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.Web.Host.Startup.SimpleTaskAppWebHostModule, Acme.SimpleTaskApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,061 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppWebCoreModule, Acme.SimpleTaskApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,061 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppApplicationModule, Acme.SimpleTaskApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,061 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppCoreModule, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,061 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,062 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,062 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,062 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,063 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppEntityFrameworkModule, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,063 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,064 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,064 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,064 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,064 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,065 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,065 [2    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2026-03-13 11:56:01,105 [2    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:56:01,105 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:56:01,105 [2    ] o.Configuration.LanguageManagementConfig - Converted SimpleTaskApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:56:01,105 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:56:01,312 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppDbContext, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:56:01,447 [2    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2026-03-13 11:56:01,484 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-03-13 11:56:01,492 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2026-03-13 11:56:01,498 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskApp
+DEBUG 2026-03-13 11:56:01,500 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-03-13 11:56:01,508 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-03-13 11:56:01,514 [2    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Acme.SimpleTaskApp.MultiTenancy.Tenant, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Acme.SimpleTaskApp.Authorization.Users.User, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2026-03-13 11:56:01,527 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2026-03-13 11:56:01,527 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.CreateUserDto
+DEBUG 2026-03-13 11:56:01,529 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.UserDto
+DEBUG 2026-03-13 11:56:01,529 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2026-03-13 11:56:01,529 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2026-03-13 11:56:01,530 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Roles.Dto.PermissionDto
+DEBUG 2026-03-13 11:56:01,530 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2026-03-13 11:56:01,530 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.TenantDto
+INFO  2026-03-13 11:56:04,093 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+DEBUG 2026-03-13 11:56:04,292 [2    ] .BrowserRefresh.BrowserRefreshMiddleware - Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+INFO  2026-03-13 11:56:04,327 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2026-03-13 11:56:04,366 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-03-13 11:56:04,367 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-03-13 11:56:04,369 [2    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\Vuyani\Downloads\Acme.SimpleTaskApp\10.2.0\aspnet-core\src\Acme.SimpleTaskApp.Web.Host
+INFO  2026-03-13 11:56:04,549 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:56:04,584 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Acme.SimpleTaskApp.Web.Host.Controllers.HomeController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 11:56:04,716 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2026-03-13 11:56:04,728 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host) in 133.2091ms
+INFO  2026-03-13 11:56:04,730 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:56:04,750 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 - - 426.5979ms
+INFO  2026-03-13 11:56:04,791 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-03-13 11:56:04,813 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+DEBUG 2026-03-13 11:56:04,821 [15   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 11:56:04,827 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 35.2375ms
+INFO  2026-03-13 11:56:04,889 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 98.0126ms
+INFO  2026-03-13 11:56:04,899 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 11:56:04,923 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 11:56:05,048 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:56:05,054 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 11:56:05,079 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 156.7719ms
+INFO  2026-03-13 11:56:05,093 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 11:56:05,103 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 48.018ms
+INFO  2026-03-13 11:56:05,106 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:56:05,108 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 208.7868ms
+INFO  2026-03-13 11:56:25,808 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/User/Create - application/json 172
+INFO  2026-03-13 11:56:25,818 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 11:56:25,884 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 11:56:25,971 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Users.Dto.UserDto] CreateAsync(Acme.SimpleTaskApp.Users.Dto.CreateUserDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+INFO  2026-03-13 11:56:27,869 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 11:56:27,897 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Users.UserAppService.CreateAsync (Acme.SimpleTaskApp.Application) in 1920.9393ms
+INFO  2026-03-13 11:56:27,908 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Users.UserAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 11:56:27,950 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/User/Create - 200 - application/json;+charset=utf-8 2139.7992ms
+INFO  2026-03-13 11:57:39,016 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - application/json 94
+INFO  2026-03-13 11:57:39,024 [28   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 11:57:39,047 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 11:57:39,076 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateResultModel] Authenticate(Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateModel) on controller Acme.SimpleTaskApp.Controllers.TokenAuthController (Acme.SimpleTaskApp.Web.Core).
+DEBUG 2026-03-13 11:58:56,260 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-03-13 11:58:56,302 [2    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2026-03-13 11:58:56,310 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.Web.Host.Startup.SimpleTaskAppWebHostModule, Acme.SimpleTaskApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,311 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppWebCoreModule, Acme.SimpleTaskApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,311 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppApplicationModule, Acme.SimpleTaskApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,311 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppCoreModule, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,312 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,312 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,312 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,313 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,313 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppEntityFrameworkModule, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,313 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,313 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,314 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,314 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,314 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,314 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:56,315 [2    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2026-03-13 11:58:56,353 [2    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:58:56,353 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:58:56,353 [2    ] o.Configuration.LanguageManagementConfig - Converted SimpleTaskApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:58:56,353 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 11:58:56,609 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppDbContext, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 11:58:57,058 [2    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2026-03-13 11:58:57,157 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-03-13 11:58:57,183 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2026-03-13 11:58:57,199 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskApp
+DEBUG 2026-03-13 11:58:57,208 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-03-13 11:58:57,223 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-03-13 11:58:57,235 [2    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Acme.SimpleTaskApp.MultiTenancy.Tenant, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Acme.SimpleTaskApp.Authorization.Users.User, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2026-03-13 11:58:57,271 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2026-03-13 11:58:57,272 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.CreateUserDto
+DEBUG 2026-03-13 11:58:57,281 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.UserDto
+DEBUG 2026-03-13 11:58:57,284 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2026-03-13 11:58:57,284 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2026-03-13 11:58:57,284 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Roles.Dto.PermissionDto
+DEBUG 2026-03-13 11:58:57,285 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2026-03-13 11:58:57,285 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.TenantDto
+INFO  2026-03-13 11:59:02,346 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+DEBUG 2026-03-13 11:59:02,936 [2    ] .BrowserRefresh.BrowserRefreshMiddleware - Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+INFO  2026-03-13 11:59:03,116 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2026-03-13 11:59:03,244 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-03-13 11:59:03,247 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-03-13 11:59:03,250 [2    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\Vuyani\Downloads\Acme.SimpleTaskApp\10.2.0\aspnet-core\src\Acme.SimpleTaskApp.Web.Host
+INFO  2026-03-13 11:59:03,633 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:59:03,793 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Acme.SimpleTaskApp.Web.Host.Controllers.HomeController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 11:59:04,424 [18   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2026-03-13 11:59:04,467 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host) in 643.7647ms
+INFO  2026-03-13 11:59:04,472 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:59:04,520 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 - - 1426.4130ms
+INFO  2026-03-13 11:59:04,528 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 11:59:04,676 [14   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 11:59:04,706 [14   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 11:59:04,710 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 187.3444ms
+INFO  2026-03-13 11:59:04,713 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-03-13 11:59:04,716 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+DEBUG 2026-03-13 11:59:04,724 [14   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 11:59:04,728 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 13.7469ms
+INFO  2026-03-13 11:59:04,777 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 60.8618ms
+INFO  2026-03-13 11:59:04,788 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 11:59:04,795 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:59:04,827 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 11:59:04,862 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 11:59:04,931 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 11:59:04,965 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 133.7382ms
+INFO  2026-03-13 11:59:04,974 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 109.5325ms
+INFO  2026-03-13 11:59:04,975 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 11:59:04,978 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 190.1106ms
+INFO  2026-03-13 11:59:21,683 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - application/json 94
+INFO  2026-03-13 11:59:21,702 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 11:59:21,712 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 11:59:21,741 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateResultModel] Authenticate(Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateModel) on controller Acme.SimpleTaskApp.Controllers.TokenAuthController (Acme.SimpleTaskApp.Web.Core).
+DEBUG 2026-03-13 12:02:55,120 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-03-13 12:02:55,165 [2    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2026-03-13 12:02:55,172 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.Web.Host.Startup.SimpleTaskAppWebHostModule, Acme.SimpleTaskApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,173 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppWebCoreModule, Acme.SimpleTaskApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,174 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppApplicationModule, Acme.SimpleTaskApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,174 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppCoreModule, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,174 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,174 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,174 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,175 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,175 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppEntityFrameworkModule, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,175 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,176 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,176 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,176 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,176 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,176 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,178 [2    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2026-03-13 12:02:55,217 [2    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:02:55,217 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:02:55,217 [2    ] o.Configuration.LanguageManagementConfig - Converted SimpleTaskApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:02:55,217 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:02:55,415 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppDbContext, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:02:55,505 [2    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2026-03-13 12:02:55,556 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-03-13 12:02:55,574 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2026-03-13 12:02:55,584 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskApp
+DEBUG 2026-03-13 12:02:55,590 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-03-13 12:02:55,603 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-03-13 12:02:55,612 [2    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Acme.SimpleTaskApp.MultiTenancy.Tenant, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Acme.SimpleTaskApp.Authorization.Users.User, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2026-03-13 12:02:55,640 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2026-03-13 12:02:55,640 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.CreateUserDto
+DEBUG 2026-03-13 12:02:55,645 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.UserDto
+DEBUG 2026-03-13 12:02:55,646 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2026-03-13 12:02:55,647 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2026-03-13 12:02:55,647 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Roles.Dto.PermissionDto
+DEBUG 2026-03-13 12:02:55,647 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2026-03-13 12:02:55,647 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.TenantDto
+INFO  2026-03-13 12:03:00,656 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+DEBUG 2026-03-13 12:03:01,311 [2    ] .BrowserRefresh.BrowserRefreshMiddleware - Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+INFO  2026-03-13 12:03:01,450 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2026-03-13 12:03:01,622 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-03-13 12:03:01,632 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-03-13 12:03:01,642 [2    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\Vuyani\Downloads\Acme.SimpleTaskApp\10.2.0\aspnet-core\src\Acme.SimpleTaskApp.Web.Host
+INFO  2026-03-13 12:03:02,232 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:03:02,449 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Acme.SimpleTaskApp.Web.Host.Controllers.HomeController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:03:03,063 [18   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2026-03-13 12:03:03,109 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host) in 619.6073ms
+INFO  2026-03-13 12:03:03,114 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:03:03,161 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 - - 1760.6434ms
+INFO  2026-03-13 12:03:03,171 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 12:03:03,295 [18   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 12:03:03,319 [18   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 12:03:03,322 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 152.1493ms
+INFO  2026-03-13 12:03:03,327 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-03-13 12:03:03,331 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+DEBUG 2026-03-13 12:03:03,338 [9    ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 12:03:03,342 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 14.7943ms
+INFO  2026-03-13 12:03:03,403 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 71.1770ms
+INFO  2026-03-13 12:03:03,437 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 12:03:03,443 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:03:03,475 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 12:03:03,512 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:03:03,597 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 98.1598ms
+INFO  2026-03-13 12:03:03,602 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:03:03,622 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 101.9387ms
+INFO  2026-03-13 12:03:03,626 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:03:03,630 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 192.3353ms
+INFO  2026-03-13 12:03:09,577 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - application/json 54
+INFO  2026-03-13 12:03:09,615 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:03:09,651 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 12:03:09,711 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateResultModel] Authenticate(Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateModel) on controller Acme.SimpleTaskApp.Controllers.TokenAuthController (Acme.SimpleTaskApp.Web.Core).
+INFO  2026-03-13 12:03:11,305 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:03:11,312 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core) in 1597.3726ms
+INFO  2026-03-13 12:03:11,316 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 12:03:11,320 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - 200 - application/json;+charset=utf-8 1757.1349ms
+INFO  2026-03-13 12:03:11,328 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 12:03:11,337 [18   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 12:03:11,348 [18   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 12:03:11,358 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 25.7812ms
+INFO  2026-03-13 12:03:11,363 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-03-13 12:03:11,367 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+DEBUG 2026-03-13 12:03:11,371 [19   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 12:03:11,374 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 13.2182ms
+INFO  2026-03-13 12:03:11,398 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 30.6951ms
+INFO  2026-03-13 12:03:11,414 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 12:03:11,430 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 12:03:11,561 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:03:11,595 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:03:11,644 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:03:11,648 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 49.0786ms
+INFO  2026-03-13 12:03:11,651 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:03:11,671 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 240.1835ms
+INFO  2026-03-13 12:03:11,698 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 270.7086ms
+INFO  2026-03-13 12:03:21,984 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/User/GetAll - - -
+INFO  2026-03-13 12:03:22,001 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:03:22,016 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Acme.SimpleTaskApp.Users.Dto.UserDto]] GetAllAsync(Acme.SimpleTaskApp.Users.Dto.PagedUserResultRequestDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+INFO  2026-03-13 12:03:24,252 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:03:24,278 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application) in 2259.1165ms
+INFO  2026-03-13 12:03:24,281 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Users.UserAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:03:24,285 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/User/GetAll - 200 - application/json;+charset=utf-8 2299.8194ms
+INFO  2026-03-13 12:05:13,963 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/User/Create - application/json 159
+INFO  2026-03-13 12:05:13,970 [28   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:05:14,002 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:05:14,012 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Users.Dto.UserDto] CreateAsync(Acme.SimpleTaskApp.Users.Dto.CreateUserDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+DEBUG 2026-03-13 12:06:35,013 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-03-13 12:06:35,059 [2    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2026-03-13 12:06:35,066 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.Web.Host.Startup.SimpleTaskAppWebHostModule, Acme.SimpleTaskApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,068 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppWebCoreModule, Acme.SimpleTaskApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,068 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppApplicationModule, Acme.SimpleTaskApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,068 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppCoreModule, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,068 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,069 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,069 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,069 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,070 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppEntityFrameworkModule, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,070 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,070 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,070 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,070 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,071 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,071 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,072 [2    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2026-03-13 12:06:35,113 [2    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:06:35,113 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:06:35,113 [2    ] o.Configuration.LanguageManagementConfig - Converted SimpleTaskApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:06:35,113 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:06:35,606 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppDbContext, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:06:35,988 [2    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2026-03-13 12:06:36,079 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-03-13 12:06:36,098 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2026-03-13 12:06:36,109 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskApp
+DEBUG 2026-03-13 12:06:36,116 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-03-13 12:06:36,132 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-03-13 12:06:36,144 [2    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Acme.SimpleTaskApp.MultiTenancy.Tenant, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Acme.SimpleTaskApp.Authorization.Users.User, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2026-03-13 12:06:36,192 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2026-03-13 12:06:36,192 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.CreateUserDto
+DEBUG 2026-03-13 12:06:36,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.UserDto
+DEBUG 2026-03-13 12:06:36,198 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2026-03-13 12:06:36,199 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2026-03-13 12:06:36,199 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Roles.Dto.PermissionDto
+DEBUG 2026-03-13 12:06:36,199 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2026-03-13 12:06:36,199 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.TenantDto
+INFO  2026-03-13 12:06:41,427 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+DEBUG 2026-03-13 12:06:42,075 [2    ] .BrowserRefresh.BrowserRefreshMiddleware - Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+INFO  2026-03-13 12:06:42,213 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2026-03-13 12:06:42,343 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-03-13 12:06:42,346 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-03-13 12:06:42,350 [2    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\Vuyani\Downloads\Acme.SimpleTaskApp\10.2.0\aspnet-core\src\Acme.SimpleTaskApp.Web.Host
+INFO  2026-03-13 12:06:42,723 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:06:42,890 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Acme.SimpleTaskApp.Web.Host.Controllers.HomeController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:06:43,536 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2026-03-13 12:06:43,561 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host) in 648.772ms
+INFO  2026-03-13 12:06:43,563 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:06:43,630 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 - - 1431.4176ms
+INFO  2026-03-13 12:06:43,644 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 12:06:43,893 [13   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 12:06:43,938 [13   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 12:06:43,940 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-03-13 12:06:43,944 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-03-13 12:06:43,952 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 317.1262ms
+DEBUG 2026-03-13 12:06:43,965 [7    ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 12:06:43,970 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 27.3055ms
+INFO  2026-03-13 12:06:44,027 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 84.0372ms
+INFO  2026-03-13 12:06:44,040 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 12:06:44,058 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 12:06:44,266 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:06:44,280 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:06:44,331 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 272.7866ms
+INFO  2026-03-13 12:06:44,345 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:06:44,355 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 73.4724ms
+INFO  2026-03-13 12:06:44,357 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:06:44,360 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 319.2750ms
+INFO  2026-03-13 12:07:02,735 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/User/Create - application/json 160
+INFO  2026-03-13 12:07:02,756 [16   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:07:02,786 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:07:02,902 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Users.Dto.UserDto] CreateAsync(Acme.SimpleTaskApp.Users.Dto.CreateUserDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+INFO  2026-03-13 12:07:05,299 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:07:05,334 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Users.UserAppService.CreateAsync (Acme.SimpleTaskApp.Application) in 2427.4551ms
+INFO  2026-03-13 12:07:05,337 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Users.UserAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:07:05,386 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/User/Create - 200 - application/json;+charset=utf-8 2610.1197ms
+INFO  2026-03-13 12:07:19,838 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 12:07:19,852 [10   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 12:07:19,858 [10   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 12:07:19,864 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 61.1626ms
+INFO  2026-03-13 12:07:19,905 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-03-13 12:07:19,907 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+DEBUG 2026-03-13 12:07:19,909 [16   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 12:07:19,912 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 5.5690ms
+INFO  2026-03-13 12:07:19,929 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 52.1835ms
+INFO  2026-03-13 12:07:19,943 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 12:07:19,948 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:07:19,954 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:07:19,964 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 12:07:20,006 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:07:20,009 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 52.5013ms
+INFO  2026-03-13 12:07:20,013 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:07:20,043 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 72.5854ms
+INFO  2026-03-13 12:07:20,087 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 120.2836ms
+INFO  2026-03-13 12:07:37,617 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - application/json 88
+INFO  2026-03-13 12:07:37,623 [16   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:07:37,632 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 12:07:37,641 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateResultModel] Authenticate(Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateModel) on controller Acme.SimpleTaskApp.Controllers.TokenAuthController (Acme.SimpleTaskApp.Web.Core).
+INFO  2026-03-13 12:07:38,216 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:07:38,225 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core) in 577.891ms
+INFO  2026-03-13 12:07:38,230 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 12:07:38,235 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - 200 - application/json;+charset=utf-8 617.4367ms
+INFO  2026-03-13 12:08:57,257 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - application/json 53
+INFO  2026-03-13 12:08:57,275 [26   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:08:57,290 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 12:08:57,312 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateResultModel] Authenticate(Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateModel) on controller Acme.SimpleTaskApp.Controllers.TokenAuthController (Acme.SimpleTaskApp.Web.Core).
+INFO  2026-03-13 12:08:57,673 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:08:57,678 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core) in 361.3547ms
+INFO  2026-03-13 12:08:57,682 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 12:08:57,684 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - 200 - application/json;+charset=utf-8 446.4767ms
+INFO  2026-03-13 12:08:57,705 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 12:08:57,728 [16   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 12:08:57,731 [16   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 12:08:57,736 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 31.8274ms
+INFO  2026-03-13 12:08:57,743 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+DEBUG 2026-03-13 12:08:57,770 [16   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 12:08:57,804 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-03-13 12:08:57,810 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 64.3042ms
+INFO  2026-03-13 12:08:57,843 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 95.4020ms
+INFO  2026-03-13 12:08:57,868 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 12:08:57,882 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 12:08:57,918 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:08:57,946 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:08:57,994 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:08:58,000 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 48.4652ms
+INFO  2026-03-13 12:08:58,021 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:08:58,042 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 157.5306ms
+INFO  2026-03-13 12:08:58,056 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 174.6516ms
+INFO  2026-03-13 12:09:40,721 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/Task/Create - application/json 67
+INFO  2026-03-13 12:09:40,728 [27   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:09:40,785 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Tasks.TaskAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:09:40,809 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Task"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Tasks.Dtos.TaskListDto] CreateAsync(Acme.SimpleTaskApp.Tasks.Dtos.CreateTaskInput) on controller Acme.SimpleTaskApp.Tasks.TaskAppService (Acme.SimpleTaskApp.Application).
+WARN  2026-03-13 12:09:40,948 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateTask' in localization source 'SimpleTaskApp'!
+WARN  2026-03-13 12:09:41,006 [27   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: [Create task]
+   at Abp.Authorization.PermissionCheckerExtensions.AuthorizeAsync(IPermissionChecker permissionChecker, Boolean requireAll, String[] permissionNames)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: [Create task]
+   at Abp.Authorization.PermissionCheckerExtensions.AuthorizeAsync(IPermissionChecker permissionChecker, Boolean requireAll, String[] permissionNames)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2026-03-13 12:09:41,020 [27   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2026-03-13 12:09:41,024 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:09:41,031 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Tasks.TaskAppService.CreateAsync (Acme.SimpleTaskApp.Application) in 218.5434ms
+INFO  2026-03-13 12:09:41,033 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Tasks.TaskAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:09:41,037 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/Task/Create - 403 - application/json;+charset=utf-8 316.1393ms
+INFO  2026-03-13 12:14:32,604 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 12:14:32,668 [32   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 12:14:32,679 [32   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 12:14:32,684 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 78.2118ms
+INFO  2026-03-13 12:14:32,707 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-03-13 12:14:32,709 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+DEBUG 2026-03-13 12:14:32,712 [30   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 12:14:32,715 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 8.8619ms
+INFO  2026-03-13 12:14:32,727 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 17.9588ms
+INFO  2026-03-13 12:14:32,806 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 12:14:32,836 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:14:32,866 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 12:14:32,869 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:14:32,895 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:14:32,923 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 26.2269ms
+INFO  2026-03-13 12:14:32,950 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:14:32,979 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 145.6997ms
+INFO  2026-03-13 12:14:33,026 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 183.9527ms
+INFO  2026-03-13 12:14:39,740 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - application/json 54
+INFO  2026-03-13 12:14:39,756 [30   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:14:39,772 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 12:14:39,803 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateResultModel] Authenticate(Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateModel) on controller Acme.SimpleTaskApp.Controllers.TokenAuthController (Acme.SimpleTaskApp.Web.Core).
+INFO  2026-03-13 12:14:40,195 [33   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:14:40,199 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core) in 391.8874ms
+INFO  2026-03-13 12:14:40,204 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 12:14:40,217 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - 200 - application/json;+charset=utf-8 482.5702ms
+INFO  2026-03-13 12:14:40,248 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 12:14:40,259 [26   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 12:14:40,270 [26   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 12:14:40,278 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 26.5404ms
+INFO  2026-03-13 12:14:40,289 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-03-13 12:14:40,296 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+DEBUG 2026-03-13 12:14:40,300 [32   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 12:14:40,304 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 11.1280ms
+INFO  2026-03-13 12:14:40,316 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 29.2217ms
+INFO  2026-03-13 12:14:40,335 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 12:14:40,340 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:14:40,346 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:14:40,354 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 12:14:40,364 [32   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:14:40,369 [32   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 20.2436ms
+INFO  2026-03-13 12:14:40,370 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:14:40,374 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 38.0651ms
+INFO  2026-03-13 12:14:40,390 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 37.3651ms
+INFO  2026-03-13 12:16:57,315 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/Role/Create - application/json 109
+INFO  2026-03-13 12:16:57,342 [37   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:16:57,345 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Roles.RoleAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:16:57,355 [37   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Roles.Dto.RoleDto] CreateAsync(Acme.SimpleTaskApp.Roles.Dto.CreateRoleDto) on controller Acme.SimpleTaskApp.Roles.RoleAppService (Acme.SimpleTaskApp.Application).
+WARN  2026-03-13 12:16:57,615 [37   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError()
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+WARN  2026-03-13 12:16:57,617 [37   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2026-03-13 12:16:57,617 [37   ] Mvc.ExceptionHandling.AbpExceptionFilter - The Name field is required. (Name)
+INFO  2026-03-13 12:16:57,635 [37   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:16:57,642 [37   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Roles.RoleAppService.CreateAsync (Acme.SimpleTaskApp.Application) in 280.2918ms
+INFO  2026-03-13 12:16:57,647 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Roles.RoleAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:16:57,657 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/Role/Create - 400 - application/json;+charset=utf-8 337.0917ms
+INFO  2026-03-13 12:18:49,135 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/Role/Create - application/json 169
+INFO  2026-03-13 12:18:49,139 [40   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:18:49,171 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Roles.RoleAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:18:49,179 [40   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Roles.Dto.RoleDto] CreateAsync(Acme.SimpleTaskApp.Roles.Dto.CreateRoleDto) on controller Acme.SimpleTaskApp.Roles.RoleAppService (Acme.SimpleTaskApp.Application).
+INFO  2026-03-13 12:18:49,616 [39   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:18:49,632 [39   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Roles.RoleAppService.CreateAsync (Acme.SimpleTaskApp.Application) in 446.6292ms
+INFO  2026-03-13 12:18:49,641 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Roles.RoleAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:18:49,650 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/Role/Create - 200 - application/json;+charset=utf-8 511.0168ms
+INFO  2026-03-13 12:20:23,387 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 PUT https://localhost:44311/api/services/app/User/Update - application/json 169
+INFO  2026-03-13 12:20:23,402 [42   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:20:23,433 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.UpdateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:20:23,515 [42   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Update", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Users.Dto.UserDto] UpdateAsync(Acme.SimpleTaskApp.Users.Dto.UserDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+DEBUG 2026-03-13 12:20:56,131 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-03-13 12:20:56,181 [2    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2026-03-13 12:20:56,188 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.Web.Host.Startup.SimpleTaskAppWebHostModule, Acme.SimpleTaskApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,190 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppWebCoreModule, Acme.SimpleTaskApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,190 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppApplicationModule, Acme.SimpleTaskApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,190 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.SimpleTaskAppCoreModule, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,190 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,191 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,191 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,191 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,192 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppEntityFrameworkModule, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,192 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,192 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,192 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,192 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,193 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,193 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:56,194 [2    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2026-03-13 12:20:56,232 [2    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:20:56,232 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:20:56,232 [2    ] o.Configuration.LanguageManagementConfig - Converted SimpleTaskApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:20:56,232 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2026-03-13 12:20:56,510 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Acme.SimpleTaskApp.EntityFrameworkCore.SimpleTaskAppDbContext, Acme.SimpleTaskApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-03-13 12:20:57,021 [2    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2026-03-13 12:20:57,122 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-03-13 12:20:57,141 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2026-03-13 12:20:57,155 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskApp
+DEBUG 2026-03-13 12:20:57,161 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-03-13 12:20:57,175 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-03-13 12:20:57,206 [2    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Acme.SimpleTaskApp.MultiTenancy.Tenant, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Acme.SimpleTaskApp.Authorization.Users.User, Acme.SimpleTaskApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2026-03-13 12:20:57,257 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2026-03-13 12:20:57,257 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.CreateUserDto
+DEBUG 2026-03-13 12:20:57,263 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Users.Dto.UserDto
+DEBUG 2026-03-13 12:20:57,264 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2026-03-13 12:20:57,264 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2026-03-13 12:20:57,265 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.Roles.Dto.PermissionDto
+DEBUG 2026-03-13 12:20:57,266 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2026-03-13 12:20:57,266 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Acme.SimpleTaskApp.MultiTenancy.Dto.TenantDto
+INFO  2026-03-13 12:21:02,441 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+DEBUG 2026-03-13 12:21:03,171 [2    ] .BrowserRefresh.BrowserRefreshMiddleware - Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+INFO  2026-03-13 12:21:03,279 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2026-03-13 12:21:03,429 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-03-13 12:21:03,431 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-03-13 12:21:03,436 [2    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\Vuyani\Downloads\Acme.SimpleTaskApp\10.2.0\aspnet-core\src\Acme.SimpleTaskApp.Web.Host
+INFO  2026-03-13 12:21:03,876 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:21:04,047 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Acme.SimpleTaskApp.Web.Host.Controllers.HomeController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:21:04,575 [15   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2026-03-13 12:21:04,615 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host) in 530.6687ms
+INFO  2026-03-13 12:21:04,617 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.HomeController.Index (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:21:04,655 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 - - 1388.7080ms
+INFO  2026-03-13 12:21:04,659 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 12:21:04,792 [7    ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 12:21:04,828 [7    ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 12:21:04,830 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 172.0690ms
+INFO  2026-03-13 12:21:04,839 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-03-13 12:21:04,843 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+DEBUG 2026-03-13 12:21:04,852 [15   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 12:21:04,857 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 19.8763ms
+INFO  2026-03-13 12:21:04,909 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 65.5914ms
+INFO  2026-03-13 12:21:04,930 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 12:21:04,953 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 12:21:05,166 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:21:05,182 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:21:05,234 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 281.6647ms
+INFO  2026-03-13 12:21:05,252 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:21:05,269 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 84.9675ms
+INFO  2026-03-13 12:21:05,275 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:21:05,278 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 347.6947ms
+INFO  2026-03-13 12:22:25,906 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 PUT https://localhost:44311/api/services/app/User/Update - application/json 162
+INFO  2026-03-13 12:22:25,916 [25   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:22:25,990 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.UpdateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:22:26,057 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Update", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Users.Dto.UserDto] UpdateAsync(Acme.SimpleTaskApp.Users.Dto.UserDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+WARN  2026-03-13 12:22:26,958 [26   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError()
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+WARN  2026-03-13 12:22:26,961 [26   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2026-03-13 12:22:26,962 [26   ] Mvc.ExceptionHandling.AbpExceptionFilter - '{' is an invalid start of a property name. Expected a '"'. Path: $ | LineNumber: 1 | BytePositionInLine: 0. ($)
+INFO  2026-03-13 12:22:27,010 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:22:27,020 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Users.UserAppService.UpdateAsync (Acme.SimpleTaskApp.Application) in 959.4056ms
+INFO  2026-03-13 12:22:27,023 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Users.UserAppService.UpdateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:22:27,027 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 PUT https://localhost:44311/api/services/app/User/Update - 400 - application/json;+charset=utf-8 1122.0569ms
+INFO  2026-03-13 12:24:38,357 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 PUT https://localhost:44311/api/services/app/User/Update - application/json 161
+INFO  2026-03-13 12:24:38,372 [27   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:24:38,392 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Users.UserAppService.UpdateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:24:38,502 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Update", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Users.Dto.UserDto] UpdateAsync(Acme.SimpleTaskApp.Users.Dto.UserDto) on controller Acme.SimpleTaskApp.Users.UserAppService (Acme.SimpleTaskApp.Application).
+INFO  2026-03-13 12:24:39,772 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:24:39,784 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Users.UserAppService.UpdateAsync (Acme.SimpleTaskApp.Application) in 1278.8512ms
+INFO  2026-03-13 12:24:39,786 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Users.UserAppService.UpdateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:24:39,788 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 PUT https://localhost:44311/api/services/app/User/Update - 200 - application/json;+charset=utf-8 1430.5416ms
+INFO  2026-03-13 12:24:55,484 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 12:24:55,517 [28   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 12:24:55,520 [28   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 12:24:55,526 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 56.3602ms
+INFO  2026-03-13 12:24:55,537 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+DEBUG 2026-03-13 12:24:55,574 [28   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 12:24:55,612 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-03-13 12:24:55,614 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 41.7462ms
+INFO  2026-03-13 12:24:55,659 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 82.4849ms
+INFO  2026-03-13 12:24:55,674 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 12:24:55,679 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:24:55,696 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:24:55,724 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 12:24:55,799 [28   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:24:55,828 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 76.2203ms
+INFO  2026-03-13 12:24:55,856 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:24:55,884 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 185.7938ms
+INFO  2026-03-13 12:24:55,889 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 190.4877ms
+INFO  2026-03-13 12:25:07,596 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - application/json 53
+INFO  2026-03-13 12:25:07,611 [30   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:25:07,627 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 12:25:07,676 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateResultModel] Authenticate(Acme.SimpleTaskApp.Models.TokenAuth.AuthenticateModel) on controller Acme.SimpleTaskApp.Controllers.TokenAuthController (Acme.SimpleTaskApp.Web.Core).
+INFO  2026-03-13 12:25:08,507 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:25:08,537 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core) in 846.5867ms
+INFO  2026-03-13 12:25:08,544 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Controllers.TokenAuthController.Authenticate (Acme.SimpleTaskApp.Web.Core)'
+INFO  2026-03-13 12:25:08,556 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - 200 - application/json;+charset=utf-8 963.4286ms
+INFO  2026-03-13 12:25:08,572 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+DEBUG 2026-03-13 12:25:08,578 [27   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+DEBUG 2026-03-13 12:25:08,581 [27   ] .BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+INFO  2026-03-13 12:25:08,587 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 11.7427ms
+INFO  2026-03-13 12:25:08,598 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-03-13 12:25:08,629 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+DEBUG 2026-03-13 12:25:08,632 [27   ] h.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+INFO  2026-03-13 12:25:08,661 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 35.4421ms
+INFO  2026-03-13 12:25:08,678 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 79.4151ms
+INFO  2026-03-13 12:25:08,720 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-03-13 12:25:08,744 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-03-13 12:25:08,788 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:25:08,817 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController (Acme.SimpleTaskApp.Web.Host).
+INFO  2026-03-13 12:25:08,857 [28   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:25:08,891 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host) in 41.0019ms
+INFO  2026-03-13 12:25:08,894 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Web.Host.Controllers.AntiForgeryController.SetCookie (Acme.SimpleTaskApp.Web.Host)'
+INFO  2026-03-13 12:25:08,954 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 207.8460ms
+INFO  2026-03-13 12:25:08,980 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 256.8317ms
+INFO  2026-03-13 12:25:31,930 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/Task/Create - application/json 67
+INFO  2026-03-13 12:25:31,938 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:25:31,949 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Tasks.TaskAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:25:32,004 [34   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Task"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Tasks.Dtos.TaskListDto] CreateAsync(Acme.SimpleTaskApp.Tasks.Dtos.CreateTaskInput) on controller Acme.SimpleTaskApp.Tasks.TaskAppService (Acme.SimpleTaskApp.Application).
+INFO  2026-03-13 12:25:32,383 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:25:32,393 [34   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Tasks.TaskAppService.CreateAsync (Acme.SimpleTaskApp.Application) in 385.77ms
+INFO  2026-03-13 12:25:32,396 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Tasks.TaskAppService.CreateAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:25:32,404 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/Task/Create - 200 - application/json;+charset=utf-8 475.2041ms
+INFO  2026-03-13 12:25:48,172 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Task/GetAll - - -
+INFO  2026-03-13 12:25:48,178 [35   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Tasks.TaskAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:25:48,191 [35   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Task"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Acme.SimpleTaskApp.Tasks.Dtos.TaskListDto]] GetAllAsync(Acme.SimpleTaskApp.Tasks.Dtos.GetAllTasksInput) on controller Acme.SimpleTaskApp.Tasks.TaskAppService (Acme.SimpleTaskApp.Application).
+INFO  2026-03-13 12:25:48,297 [35   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:25:48,318 [35   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Tasks.TaskAppService.GetAllAsync (Acme.SimpleTaskApp.Application) in 119.2889ms
+INFO  2026-03-13 12:25:48,324 [35   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Tasks.TaskAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:25:48,333 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Task/GetAll - 200 - application/json;+charset=utf-8 159.7157ms
+INFO  2026-03-13 12:26:23,185 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Task/Get?Id=1 - - -
+INFO  2026-03-13 12:26:23,194 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Tasks.TaskAppService.GetAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:26:23,205 [34   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Get", controller = "Task"}. Executing controller action with signature System.Threading.Tasks.Task`1[Acme.SimpleTaskApp.Tasks.Dtos.TaskListDto] GetAsync(Abp.Application.Services.Dto.EntityDto`1[System.Int32]) on controller Acme.SimpleTaskApp.Tasks.TaskAppService (Acme.SimpleTaskApp.Application).
+INFO  2026-03-13 12:26:23,295 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:26:23,301 [34   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Tasks.TaskAppService.GetAsync (Acme.SimpleTaskApp.Application) in 90.3194ms
+INFO  2026-03-13 12:26:23,304 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Tasks.TaskAppService.GetAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:26:23,313 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Task/Get?Id=1 - 200 - application/json;+charset=utf-8 122.7735ms
+INFO  2026-03-13 12:27:14,340 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Role/GetAll - - -
+INFO  2026-03-13 12:27:14,350 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Roles.RoleAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:27:14,359 [36   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Acme.SimpleTaskApp.Roles.Dto.RoleDto]] GetAllAsync(Acme.SimpleTaskApp.Roles.Dto.PagedRoleResultRequestDto) on controller Acme.SimpleTaskApp.Roles.RoleAppService (Acme.SimpleTaskApp.Application).
+WARN  2026-03-13 12:27:14,606 [36   ] Mvc.ExceptionHandling.AbpExceptionFilter - Required permissions are not granted. At least one of these permissions must be granted: Roles
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: Roles
+   at Abp.Authorization.PermissionCheckerExtensions.AuthorizeAsync(IPermissionChecker permissionChecker, Boolean requireAll, String[] permissionNames)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method2714(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2026-03-13 12:27:14,615 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:27:14,628 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Roles.RoleAppService.GetAllAsync (Acme.SimpleTaskApp.Application) in 260.1161ms
+INFO  2026-03-13 12:27:14,639 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Roles.RoleAppService.GetAllAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:27:14,649 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Role/GetAll - 403 - application/json;+charset=utf-8 303.2623ms
+INFO  2026-03-13 12:27:47,193 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 DELETE https://localhost:44311/api/services/app/Task/Delete?Id=1 - - -
+INFO  2026-03-13 12:27:47,197 [36   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2026-03-13 12:27:47,202 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Acme.SimpleTaskApp.Tasks.TaskAppService.DeleteAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:27:47,215 [36   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Delete", controller = "Task"}. Executing controller action with signature System.Threading.Tasks.Task DeleteAsync(Abp.Application.Services.Dto.EntityDto`1[System.Int32]) on controller Acme.SimpleTaskApp.Tasks.TaskAppService (Acme.SimpleTaskApp.Application).
+WARN  2026-03-13 12:27:47,220 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'DeleteTask' in localization source 'SimpleTaskApp'!
+WARN  2026-03-13 12:27:47,234 [36   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: [Delete task]
+   at Abp.Authorization.PermissionCheckerExtensions.AuthorizeAsync(IPermissionChecker permissionChecker, Boolean requireAll, String[] permissionNames)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: [Delete task]
+   at Abp.Authorization.PermissionCheckerExtensions.AuthorizeAsync(IPermissionChecker permissionChecker, Boolean requireAll, String[] permissionNames)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2026-03-13 12:27:47,248 [36   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2026-03-13 12:27:47,250 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-03-13 12:27:47,302 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action Acme.SimpleTaskApp.Tasks.TaskAppService.DeleteAsync (Acme.SimpleTaskApp.Application) in 35.5279ms
+INFO  2026-03-13 12:27:47,304 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Acme.SimpleTaskApp.Tasks.TaskAppService.DeleteAsync (Acme.SimpleTaskApp.Application)'
+INFO  2026-03-13 12:27:47,306 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 DELETE https://localhost:44311/api/services/app/Task/Delete?Id=1 - 403 - application/json;+charset=utf-8 112.5426ms

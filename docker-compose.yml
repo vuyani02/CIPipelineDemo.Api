@@ -1,0 +1,36 @@
+services:
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: simpletaskapp-sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=SimpleTask_Pass123!
+    ports:
+      - "1434:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P SimpleTask_Pass123! -Q 'SELECT 1' -No"]
+      interval: 15s
+      retries: 10
+      timeout: 10s
+      start_period: 30s
+
+  api:
+    build:
+      context: .
+      dockerfile: src/Acme.SimpleTaskApp.Web.Host/Dockerfile
+    container_name: simpletaskapp-api
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__Default=Server=sqlserver,1433;Database=SimpleTaskAppDb;User ID=sa;Password=SimpleTask_Pass123!;TrustServerCertificate=True;
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+
+volumes:
+  sqlserver_data:
