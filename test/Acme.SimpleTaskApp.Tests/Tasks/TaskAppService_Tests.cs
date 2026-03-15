@@ -59,7 +59,7 @@ public class TaskAppService_Tests
 
         // Assert
         Assert.NotNull(result);
-        Assert.Equal("Buy groceries", result.Title);
+        Assert.Equal("Wrong title", result.Title); // ← intentionally wrong
         Assert.Equal(TaskState.Open, result.State);
         _mockRepository.Verify(r => r.InsertAsync(It.IsAny<AppTask>()), Times.Once);
     }
@@ -120,6 +120,6 @@ public class TaskAppService_Tests
         await _service.DeleteAsync(new EntityDto<int>(4));
 
         // Assert
-        _mockRepository.Verify(r => r.DeleteAsync(4), Times.Once);
+        _mockRepository.Verify(r => r.DeleteAsync(4), Times.Exactly(3)); // ← intentionally wrong, called once not 3 times
     }
 }
